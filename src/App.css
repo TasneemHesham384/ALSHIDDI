@@ -11,23 +11,17 @@ html {
   scroll-behavior: smooth;
 }
 :root {
-  --main-color: #c6a75e; /* الذهبي المطفي: للأيقونات، العناوين المهمة، وحدود الأزرار */
-  --main-color-alt: #e0c46c; /* الذهبي الفاتح: تأثير الـ Hover على الأزرار عشان "تنور" لما تلمسيها */
+  --main-color: #c6a75e; 
+  --main-color-alt: #e0c46c; 
 
-  /* --- ألوان الخلفيات (الدرجات الغامقة) --- */
-  --body-background: #111316; /* خلفية الموقع الأساسية: أسود فحمى هادي جداً وفخم */
-  --section-background: #252525; /* خلفية السكاشن الفرعية: أفتح سنة عشان تفصل بين السكاشن وبعضها */
-  --card-background: #1d1c1c; /* خلفية الكارد: أفتح من السكشن عشان يبرز */
-  /* --- ألوان النصوص --- */
-  --text-color: #eaeaea; /* النص الأساسي: أبيض "مطفي" مريح للعين للقراءة الطويلة */
-  --text-muted: #a1a1a1; /* نص فرعي: للوصف البسيط أو الحقوق في الفوتر (أقل أهمية) */
-
-  /* --- الحركات والتأثيرات --- */
-  --main-transition: 0.3s ease; /* سرعة الحركة: بتخلي أي Hover (تغيير لون) يحصل بنعومة مش فجأة */
-
-  /* --- المسافات (الريتم البصري) --- */
-  --main-padding-top: 100px; /* الفراغ العلوي للسكشن: عشان العناصر متبقاش محشورة وتدي "هيبة" */
-  --main-padding-bottom: 100px; /* الفراغ السفلي للسكشن: بيخلي التصميم يتنفس وبيريح عين المستخدم */
+  --body-background: #111316; 
+  --section-background: #252525; 
+  --card-background: #1d1c1c; 
+  --text-color: #eaeaea;
+  --text-muted: #a1a1a1; 
+  --main-transition: 0.3s ease; 
+  --main-padding-top: 100px; 
+  --main-padding-bottom: 100px; 
 }
 
 body {
@@ -194,7 +188,7 @@ header .language {
 
 .hero {
   height: 100vh;
-  background: url("assets/floriane-vita-FyD3OWBuXnY-unsplash.jpg");
+  background: url("/hero.webp");
   background-size: cover;
   background-position: center;
   display: flex;
