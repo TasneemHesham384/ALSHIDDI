@@ -1,0 +1,16 @@
+
+:root {
+  font-family: "Cairo", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden; 
+  width: 100%;
+  min-height: 100vh;
+}
